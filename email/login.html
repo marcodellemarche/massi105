@@ -1,0 +1,49 @@
+<div style="margin:0 auto;max-width:600px;">
+    <table style="font-size:0;width:100%" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tr>
+            <td style="word-break:break-word;font-size:0;padding:10px 40px 20px" align="left">
+                <div
+                    style="color:#8993a2;font-family:Open Sans,helvetica,sans-serif;font-size:16px;font-weight:100;line-height:32px">
+                    <p>
+                        {{static.clickButton}}
+                    </p>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="word-break:break-word;font-size:0;padding:17px 23px" align="center">
+                <table style="border:none;border-radius:3px" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tbody>
+                        <tr>
+                            <td style="background:#38849e;border-radius:3px;color:white" valign="middle"
+                                bgcolor="#38849e" align="center"><a
+                                    href="{{dynamic.loginLink}}"
+                                    style="display:inline-block;text-decoration:none;background:#38849e;border:1px solid #38849e;border-radius:3px;color:white;font-family:Open Sans,helvetica,sans-serif;font-size:14px;font-weight:normal;padding:17px 23px"
+                                    target="_blank"
+                                    data-saferedirecturl="{{dynamic.loginLinkEncoded}}">
+                                    {{dynamic.login}}
+                                </a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="word-break:break-word;font-size:0;padding:10px 40px 20px" align="left">
+                <div
+                    style="color:#8993a2;font-family:Open Sans,helvetica,sans-serif;font-size:16px;font-weight:100;line-height:32px">
+                    <p>
+                        {{static.cannotOpenLink}}
+                        <a href="{{dynamic.loginLink}}" target="_blank"
+                            data-saferedirecturl="{{dynamic.loginLinkEncoded}}">
+                            {{dynamic.loginLink}}
+                            <!-- http://localhost:3000/login?<wbr>token=67c055da-0166-48d3-b8b9-<wbr>3bdc26009b90 -->
+                        </a>
+                    </p>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

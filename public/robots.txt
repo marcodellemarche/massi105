@@ -1,0 +1,6 @@
+Sitemap: https://massi105.it/.netlify/functions/sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /.netlify/*

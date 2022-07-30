@@ -1,0 +1,22 @@
+.product-card--overlay-text {
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    text-align: center;
+}
+
+.product-card--name {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    margin-top: 8px;
+    line-height: 24px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.product-card--image-container {
+    padding-bottom: 100%;
+    border-radius: 8px;
+    background-blend-mode: multiply;
+}
